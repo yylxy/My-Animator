@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/im_image_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/bomb5" />
+
+
+        <ImageView
+            android:id="@+id/im_image_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/bomb6" />
+
+        <ImageView
+            android:id="@+id/im_image_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/bomb7" />
+
+        <ImageView
+            android:id="@+id/im_image_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/bomb8" />
+
+        <ImageView
+            android:id="@+id/im_image_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/bomb9" />
+
+
+        <ImageView
+            android:id="@+id/im_image_6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/bg" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import me.nereo.multi_image_selector.MultiImageSelector;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     public static void startUI(Context context) {
@@ -79,6 +81,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             animaitor.start();
         }
         flag = true;
+    }
+
+    public void onClickListener(View view) {
+
+//        MultiImageSelector.create(Context)
+//                .showCamera(boolean) // 是否显示相机. 默认为显示
+//        .count(int) // 最大选择图片数量, 默认为9. 只有在选择模式为多选时有效
+//        .single() // 单选模式
+//                .multi() // 多选模式, 默认模式;
+//                .origin(ArrayList < String >) // 默认已选择图片. 只有在选择模式为多选时有效
+//                .start(Activity / Fragment, REQUEST_IMAGE);
+
+        MultiImageSelector.create().showCamera(true).count(9).multi().start(this, 500);
+
+
     }
 
 

@@ -15,10 +15,10 @@ import java.util.ArrayList;
 
 import me.nereo.multi_image_selector.MultiImageSelector;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivityPpp extends AppCompatActivity implements View.OnClickListener {
 
     public static void startUI(Context context) {
-        Intent intent = new Intent(context, MainActivity.class);
+        Intent intent = new Intent(context, MainActivityPpp.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
         context.startActivity(intent);
     }
